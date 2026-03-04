@@ -295,7 +295,6 @@ Never rely on default Actuator configuration — it exposes sensitive internals.
 ```properties
 # application.properties
 management.endpoints.web.exposure.include=health
-management.endpoints.web.exposure.exclude=*
 management.endpoint.health.show-details=when-authorized
 management.health.livenessstate.enabled=true
 management.health.readinessstate.enabled=true
