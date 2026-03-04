@@ -1,0 +1,25 @@
+# Maven
+backend/target/
+backend/.mvn/
+
+# IDE
+backend/.idea/
+backend/*.iml
+*.iml
+.vscode/
+*.swp
+
+# H2 leftover
+backend/data/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Environment
+.env
+*.env.local
+
+# OS
+.DS_Store
+Thumbs.db
